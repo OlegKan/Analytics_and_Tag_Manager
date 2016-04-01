@@ -24,7 +24,7 @@ import com.google.android.gms.analytics.Logger;
 
 
 public class MyApplication extends Application {
-    public Tracker mTracker;
+    private Tracker mTracker;
 
     // Get the tracker associated with this app
     public void startTracking() {
